@@ -9,7 +9,8 @@
 
 // nano Dockerfile
 // FROM tomcat:9-jdk21
-// COPY target/*.war /usr/local/tomcat/webapps/
+// COPY target/\*.war /usr/local/tomcat/webapps/
+
 
 
 // sudo docker build -t mavenwebproject .
@@ -21,7 +22,8 @@
 
 
 
-// minikube start --driver=docker 
+
+// minikube start --driver=docker
 // kubectl create deployment mynginx --image=nginx
 // kubectl expose deployment mynginx --type=NodePort --port=80
 // kubectl port-forward service/mynginx 8085:80
@@ -37,3 +39,8 @@
 // docker run --name nagiosdemo -p 8888:80 -d jasonrivers/nagios:latest
 // username:nagiosadmin
 // password:nagios
+
+
+
+//heyy
+
